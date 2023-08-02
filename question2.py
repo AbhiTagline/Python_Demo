@@ -9,9 +9,9 @@ print("Name lengthd:",length)
 nlst = list(set(length))
 nlst.sort()
 count = 0
-# for i in nlst[:3]:
-#     print(length.count(i),"names of length",i,[x for x in names if len(x) == nlst[count]])
-#     count += 1
+for i in nlst[:3]:
+    print(length.count(i),"names of length",i,[x for x in names if len(x) == nlst[count]])
+    count += 1
 
 
 
