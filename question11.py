@@ -1,4 +1,4 @@
-AP = [1,5,8,11,14,17]
+AP = [2,5,8,11,15,17]
 
 diff = 0
 # to find out the difference
