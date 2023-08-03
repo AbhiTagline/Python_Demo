@@ -9,11 +9,29 @@ elif AP[-1]-AP[-2] == AP[-3] - AP[-4]:  #if first two ap got wrong then will che
     diff = AP[-1] - AP[-2]
 
 for i in range(len(AP)-1):
-    print(AP[i+1] == (AP[i] + diff))
     if AP[i+1] == (AP[i] + diff):
         pass
     else:
         print('This number is wrong',AP[i+1])
         AP[i+1] = AP[i] + diff
-        break
 print(AP)
+
+
+
+GP = [3,9,27,81,244,729]
+
+common_ratio = 0
+# to find the common ratio
+if GP[1]/GP[0] == GP[2]/GP[1]:
+    common_ratio = int(GP[1]/GP[0])
+elif GP[-1]/GP[-2] == GP[-2]/GP[-3]:
+    common_ratio = int(GP[-1]/GP[-2])
+
+
+for i in range(len(GP)-2):
+    if GP[i+2] == (GP[i+1] * common_ratio):
+        pass
+    else:
+        print('This number is wrong',GP[i+2])
+        GP[i+2] = GP[i+1] * common_ratio
+print(GP)
