@@ -1,6 +1,4 @@
-# Question1 
-
-
+# Question1
 from collections import Counter
 choice = input("A. Length of list\nB. Display first 3 numbers\nC. Display sum of odd numbers\nD. Number of duplicate numbers\nE. Display list without duplicate numbers\nEnter Your choice: ")
 numbers  = [2,4,5,2,12,44,5,1,2,3,]
@@ -17,7 +15,3 @@ elif choice.lower()=="d":
     print("Number of duplicate numbers: ",len(duplicate_numbers_lists),duplicate_numbers_lists,"repeats")
 elif choice.lower()=="e":
     print("List without duplicate numbers: ",list(set(numbers)))
-
-
-
-
