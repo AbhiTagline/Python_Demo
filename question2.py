@@ -3,7 +3,7 @@ print("Names :", names)
 
 
 length = [len(x) for x in names]
-print("Name lengthd:",length)
+print("Name length:",length)
 
 
 nlst = list(set(length))
