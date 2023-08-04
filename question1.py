@@ -3,7 +3,7 @@
 
 from collections import Counter
 choice = input("A. Length of list\nB. Display first 3 numbers\nC. Display sum of odd numbers\nD. Number of duplicate numbers\nE. Display list without duplicate numbers\nEnter Your choice: ")
-numbers  = [2,4,5,2,12,44,5,1,2,3]
+numbers  = [2,4,5,2,12,44,5,1,2,3,]
 if choice.lower()=="a":
     print("Length of list: ",len(numbers))
 elif choice.lower()=="b":
