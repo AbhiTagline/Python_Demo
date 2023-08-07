@@ -14,5 +14,3 @@ end_time_obj = datetime.strptime(end_str_time, "%H:%M")
 # first finding the diff and then substracting the diff of the intervals which are not gonna be added
 c = (end_time - start_time) - (end_time_obj - start_time_obj)
 print('Difference: ', c)
-
-
