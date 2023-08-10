@@ -7,7 +7,6 @@ main_interval = P.closed(start_date, end_date)
 
 night_interval_start = datetime.time(0, 0, 0)
 night_interval_end = datetime.time(6, 0, 0)
-# night_interval = P.closed(night_interval_start, night_interval_end)
 
 night_intervals_list = []
 current_date = start_date.date() + datetime.timedelta(days=1) 
