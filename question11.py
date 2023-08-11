@@ -16,8 +16,6 @@ for i in range(len(AP)-1):
         AP[i+1] = AP[i] + diff
 print(AP)
 
-
-
 GP = [3,9,27,81,244,729]
 
 common_ratio = 0
@@ -26,7 +24,6 @@ if GP[1]/GP[0] == GP[2]/GP[1]:
     common_ratio = int(GP[1]/GP[0])
 elif GP[-1]/GP[-2] == GP[-2]/GP[-3]:
     common_ratio = int(GP[-1]/GP[-2])
-
 
 for i in range(len(GP)-2):
     if GP[i+2] == (GP[i+1] * common_ratio):
